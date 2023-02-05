@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+}
+
+.subdiv1{
+    padding-left: 200px;
+   
+}
+.a1:hover{
+   font-weight: bolder;
+   color: lightgoldenrodyellow;
+}
+
+.subdiv2{
+    padding-right: 100px;
+}
+
+.subdiv1 ul{
+    list-style: none;
+    
+}
+.subdiv1 ul {
+   display: flex;
+}
+.subdiv2 ul {
+   display: flex;
+}
+.subdiv1 ul li{
+  padding-left: 30px;
+  
+}
+.subdiv2 ul li {
+    padding-left: 20px;
+    color: aliceblue;
+    
+}
+
+
+.subdiv1 ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.subdiv2 ul{
+    list-style: none;
+    
+}
+.maindiv1{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(59, 59, 59);
+    padding: 7px;
+}
+
+
+.maindiv2{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(249, 245, 245);
+}
+
+.subdiv4{
+    display: flex;
+    padding-right: 120px;
+}
+
+
+.subdiv3{
+    padding-left: 190px;
+}
+.subdiv3 ul {
+    display: flex;
+}
+.a2:hover{
+    font-weight: bolder;
+    color: rgb(237, 168, 168);
+}
+
+.subdiv3 ul li  {
+list-style: none; 
+border-right: 2px solid rgb(239, 223, 223);  
+padding: 14px; 
+}
+
+.subdiv3 ul li a {
+    text-decoration: none;
+    color: rgb(11, 11, 11);
+    padding: 20px;
+    font-size: 17px;
+    font-family: sans-serif;
+
+}
+
+.subdiv4 ul{
+    display: flex; 
+}
+
+.subdiv4 ul li{
+    list-style: none;
+    padding-right: 30px;
+    padding-top: 14px;
+}
+.empty_cart{
+    display: flex;
+    flex-direction: column;
+    padding-top: 4px;
+    font-family: sans-serif;
+}
+.e1{
+    font-size: 13px;
+    padding-top: 2px;
+    color: rgb(139, 142, 146);
+}
+
+#img1{
+width: 140px;
+position: relative;
+    bottom:80px;
+left: 50px;
+float: left;
+}
+
+.navbar{
+    
+}
+
+
+.home{
+    background-color: rgb(240, 198, 198);
+   height: 90vh;
+}
+
+.homediv{
+    display: flex; 
+    justify-content: space-between;   
+}
+#img2{
+    height:680px;
+}
+
+.sbdiv{
+    height: 700px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    
+}
+
+.sbdiv h1{
+    font-size:60px ;
+    font-family: sans-serif;
+    font-weight: 200;
+    
+}
+
+.sbdiv span{
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 10px;
+    color: rgb(116, 116, 114);
+}
+.sbdiv h2{
+    font-size: 50px;
+    font-weight: 200;
+    font-family: sans-serif;
+    font-style: italic;
+    padding-top: 20px;
+    color: tomato;
+}
+.mark1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(226, 192, 192);
+    color: black;
+    font-size: larger;
+
+
+    
+}
+
